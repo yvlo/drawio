@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-15T02:59:52.142Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67" etag="zH64qJD4ArDTDbmYpc4e" version="14.8.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-15T03:06:34.721Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67" etag="y8jUvbsvYJC0N-ToFDZY" version="14.8.5" type="github" pages="2">
   <diagram id="xa9PgJeoE1B6supJUBc8" name="指标分类关系图">
     <mxGraphModel dx="955" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -361,7 +361,7 @@
           <mxGeometry x="300" y="340" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oDbv9hanwlCo9opKcelk-70" value="报修" style="swimlane;" vertex="1" parent="oDbv9hanwlCo9opKcelk-1">
-          <mxGeometry x="1180" y="650" width="380" height="1260" as="geometry">
+          <mxGeometry x="1160" y="650" width="380" height="1260" as="geometry">
             <mxRectangle x="650" y="650" width="60" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
