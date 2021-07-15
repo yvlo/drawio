@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-15T02:37:59.553Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67" etag="GMjmTc1xoDdUPAQLg038" version="14.8.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-15T02:49:25.011Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67" etag="Bz62l3SmRrvpnzARJ5jn" version="14.8.5" type="github" pages="2">
   <diagram id="xa9PgJeoE1B6supJUBc8" name="指标分类关系图">
     <mxGraphModel dx="955" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -251,36 +251,54 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="oDbv9hanwlCo9opKcelk-53" value="领用" style="swimlane;" vertex="1" parent="oDbv9hanwlCo9opKcelk-1">
-          <mxGeometry x="110" y="650" width="370" height="470" as="geometry">
+          <mxGeometry x="30" y="650" width="450" height="470" as="geometry">
             <mxRectangle x="110" y="650" width="60" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oDbv9hanwlCo9opKcelk-52" value="申请领用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oDbv9hanwlCo9opKcelk-53">
-          <mxGeometry x="40" y="70" width="120" height="60" as="geometry" />
+          <mxGeometry x="120" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oDbv9hanwlCo9opKcelk-55" value="审核" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="oDbv9hanwlCo9opKcelk-53">
-          <mxGeometry x="60" y="200" width="80" height="80" as="geometry" />
+          <mxGeometry x="140" y="200" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="oDbv9hanwlCo9opKcelk-56" value="领用失败/成功反馈" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oDbv9hanwlCo9opKcelk-53">
-          <mxGeometry x="40" y="340" width="120" height="60" as="geometry" />
+        <mxCell id="oDbv9hanwlCo9opKcelk-56" value="领用成功" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oDbv9hanwlCo9opKcelk-53">
+          <mxGeometry x="120" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oDbv9hanwlCo9opKcelk-57" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="oDbv9hanwlCo9opKcelk-53" source="oDbv9hanwlCo9opKcelk-52" target="oDbv9hanwlCo9opKcelk-55">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="310" y="220" as="sourcePoint" />
-            <mxPoint x="360" y="170" as="targetPoint" />
+            <mxPoint x="390" y="220" as="sourcePoint" />
+            <mxPoint x="440" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oDbv9hanwlCo9opKcelk-59" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="oDbv9hanwlCo9opKcelk-53" source="oDbv9hanwlCo9opKcelk-55" target="oDbv9hanwlCo9opKcelk-56">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="109.99999999999977" y="139.99999999999977" as="sourcePoint" />
-            <mxPoint x="109.99999999999977" y="209.99999999999977" as="targetPoint" />
+            <mxPoint x="189.99999999999977" y="139.99999999999977" as="sourcePoint" />
+            <mxPoint x="189.99999999999977" y="209.99999999999977" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oDbv9hanwlCo9opKcelk-66" value="教师" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="oDbv9hanwlCo9opKcelk-53">
-          <mxGeometry x="270" y="70" width="30" height="60" as="geometry" />
+          <mxGeometry x="350" y="70" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oDbv9hanwlCo9opKcelk-67" value="后勤管理员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="oDbv9hanwlCo9opKcelk-53">
-          <mxGeometry x="270" y="200" width="30" height="60" as="geometry" />
+        <mxCell id="oDbv9hanwlCo9opKcelk-67" value="相关部门负责人" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="oDbv9hanwlCo9opKcelk-53">
+          <mxGeometry x="350" y="200" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vlUFlFi9cCU6zVkQco6e-3" value="后勤人员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="oDbv9hanwlCo9opKcelk-53">
+          <mxGeometry x="350" y="340" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vlUFlFi9cCU6zVkQco6e-7" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="oDbv9hanwlCo9opKcelk-53" source="oDbv9hanwlCo9opKcelk-55" target="oDbv9hanwlCo9opKcelk-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="239.99999999999977" as="sourcePoint" />
+            <mxPoint x="100" y="99.99999999999977" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70" y="240" />
+              <mxPoint x="70" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vlUFlFi9cCU6zVkQco6e-8" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vlUFlFi9cCU6zVkQco6e-7">
+          <mxGeometry x="0.3439" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="oDbv9hanwlCo9opKcelk-60" value="采购" style="swimlane;" vertex="1" parent="oDbv9hanwlCo9opKcelk-1">
           <mxGeometry x="650" y="650" width="330" height="470" as="geometry">
@@ -315,36 +333,59 @@
           <mxGeometry x="240" y="200" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oDbv9hanwlCo9opKcelk-70" value="报修" style="swimlane;" vertex="1" parent="oDbv9hanwlCo9opKcelk-1">
-          <mxGeometry x="1120" y="650" width="330" height="470" as="geometry">
+          <mxGeometry x="1180" y="650" width="380" height="590" as="geometry">
             <mxRectangle x="650" y="650" width="60" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oDbv9hanwlCo9opKcelk-71" value="报修申请" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oDbv9hanwlCo9opKcelk-70">
-          <mxGeometry x="40" y="70" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oDbv9hanwlCo9opKcelk-72" value="审核" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="oDbv9hanwlCo9opKcelk-70">
-          <mxGeometry x="60" y="200" width="80" height="80" as="geometry" />
+          <mxGeometry x="100" y="200" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="oDbv9hanwlCo9opKcelk-73" value="报修结果反馈" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oDbv9hanwlCo9opKcelk-70">
-          <mxGeometry x="40" y="340" width="120" height="60" as="geometry" />
+        <mxCell id="oDbv9hanwlCo9opKcelk-73" value="维修填写" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oDbv9hanwlCo9opKcelk-70">
+          <mxGeometry x="80" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oDbv9hanwlCo9opKcelk-74" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="oDbv9hanwlCo9opKcelk-70" source="oDbv9hanwlCo9opKcelk-71" target="oDbv9hanwlCo9opKcelk-72">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="310" y="220" as="sourcePoint" />
-            <mxPoint x="360" y="170" as="targetPoint" />
+            <mxPoint x="350" y="220" as="sourcePoint" />
+            <mxPoint x="400" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oDbv9hanwlCo9opKcelk-75" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="oDbv9hanwlCo9opKcelk-70" source="oDbv9hanwlCo9opKcelk-72" target="oDbv9hanwlCo9opKcelk-73">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="109.99999999999977" y="139.99999999999977" as="sourcePoint" />
-            <mxPoint x="109.99999999999977" y="209.99999999999977" as="targetPoint" />
+            <mxPoint x="149.99999999999977" y="139.99999999999977" as="sourcePoint" />
+            <mxPoint x="149.99999999999977" y="209.99999999999977" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vlUFlFi9cCU6zVkQco6e-0" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oDbv9hanwlCo9opKcelk-75">
+          <mxGeometry x="-0.4176" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oDbv9hanwlCo9opKcelk-76" value="教师" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="oDbv9hanwlCo9opKcelk-70">
-          <mxGeometry x="240" y="70" width="30" height="60" as="geometry" />
+          <mxGeometry x="280" y="70" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oDbv9hanwlCo9opKcelk-77" value="后勤管理员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="oDbv9hanwlCo9opKcelk-70">
-          <mxGeometry x="240" y="200" width="30" height="60" as="geometry" />
+          <mxGeometry x="280" y="200" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vlUFlFi9cCU6zVkQco6e-1" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="oDbv9hanwlCo9opKcelk-70" source="oDbv9hanwlCo9opKcelk-72" target="oDbv9hanwlCo9opKcelk-71">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-30" y="260" as="sourcePoint" />
+            <mxPoint x="20" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="50" y="240" />
+              <mxPoint x="50" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vlUFlFi9cCU6zVkQco6e-4" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vlUFlFi9cCU6zVkQco6e-1">
+          <mxGeometry x="0.3439" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vlUFlFi9cCU6zVkQco6e-2" value="维修人员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="oDbv9hanwlCo9opKcelk-70">
+          <mxGeometry x="280" y="340" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
