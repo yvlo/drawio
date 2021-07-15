@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-15T04:24:41.210Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67" etag="J5C5Zc3u1as1EFQ2wnol" version="14.8.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-15T05:34:59.107Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.67" etag="QLzMD79XzYMnApJLHM45" version="14.8.5" type="github" pages="2">
   <diagram id="xa9PgJeoE1B6supJUBc8" name="指标分类关系图">
     <mxGraphModel dx="955" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -190,9 +190,9 @@
             <mxPoint x="580" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oDbv9hanwlCo9opKcelk-18" value="入库" style="swimlane;startSize=23;" vertex="1" parent="oDbv9hanwlCo9opKcelk-1">
-          <mxGeometry x="440" y="210" width="200" height="270" as="geometry">
-            <mxRectangle x="440" y="210" width="60" height="23" as="alternateBounds" />
+        <mxCell id="oDbv9hanwlCo9opKcelk-18" value="入库" style="swimlane;startSize=23;" vertex="1" collapsed="1" parent="oDbv9hanwlCo9opKcelk-1">
+          <mxGeometry x="440" y="210" width="60" height="23" as="geometry">
+            <mxRectangle x="440" y="210" width="200" height="270" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oDbv9hanwlCo9opKcelk-4" value="直接入库" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="oDbv9hanwlCo9opKcelk-18">
@@ -201,9 +201,9 @@
         <mxCell id="oDbv9hanwlCo9opKcelk-19" value="采购入库" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="oDbv9hanwlCo9opKcelk-18">
           <mxGeometry x="40" y="150" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="oDbv9hanwlCo9opKcelk-25" value="出库" style="swimlane;startSize=23;" vertex="1" parent="oDbv9hanwlCo9opKcelk-1">
-          <mxGeometry x="440" y="520" width="200" height="300" as="geometry">
-            <mxRectangle x="440" y="520" width="60" height="23" as="alternateBounds" />
+        <mxCell id="oDbv9hanwlCo9opKcelk-25" value="出库" style="swimlane;startSize=23;" vertex="1" collapsed="1" parent="oDbv9hanwlCo9opKcelk-1">
+          <mxGeometry x="440" y="520" width="60" height="23" as="geometry">
+            <mxRectangle x="440" y="520" width="200" height="300" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oDbv9hanwlCo9opKcelk-32" value="领用" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="oDbv9hanwlCo9opKcelk-25">
