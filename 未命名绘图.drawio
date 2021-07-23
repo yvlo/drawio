@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-23T07:33:18.848Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.70" etag="T6I4u3gAeElbMftJjpvs" version="14.9.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-07-23T07:34:39.040Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.70" etag="QlE84tAmUyHZAYCeSKg-" version="14.9.0" type="github" pages="3">
   <diagram id="xa9PgJeoE1B6supJUBc8" name="指标分类关系图">
     <mxGraphModel dx="1203" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -876,7 +876,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6jhJnqYmZDSJyLt3ktQx-110" value="参加会议人员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="6jhJnqYmZDSJyLt3ktQx-98">
-          <mxGeometry x="590" y="319" width="30" height="60" as="geometry" />
+          <mxGeometry x="60" y="319" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6jhJnqYmZDSJyLt3ktQx-111" value="" style="endArrow=none;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="6jhJnqYmZDSJyLt3ktQx-98" source="6jhJnqYmZDSJyLt3ktQx-123" target="6jhJnqYmZDSJyLt3ktQx-110">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -884,20 +884,11 @@
             <mxPoint x="660" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6jhJnqYmZDSJyLt3ktQx-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6jhJnqYmZDSJyLt3ktQx-98" source="6jhJnqYmZDSJyLt3ktQx-117" target="6jhJnqYmZDSJyLt3ktQx-100">
+        <mxCell id="6jhJnqYmZDSJyLt3ktQx-129" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6jhJnqYmZDSJyLt3ktQx-98" source="6jhJnqYmZDSJyLt3ktQx-117" target="6jhJnqYmZDSJyLt3ktQx-123">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6jhJnqYmZDSJyLt3ktQx-120" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6jhJnqYmZDSJyLt3ktQx-98" source="6jhJnqYmZDSJyLt3ktQx-117">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="382.4264068711932" y="321.7157287525381" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="440" y="170" />
-              <mxPoint x="440" y="322" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="6jhJnqYmZDSJyLt3ktQx-117" value="会议打卡记录" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="6jhJnqYmZDSJyLt3ktQx-98">
-          <mxGeometry x="480" y="130" width="120" height="80" as="geometry" />
+          <mxGeometry x="480" y="309" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6jhJnqYmZDSJyLt3ktQx-123" value="打卡设备" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="6jhJnqYmZDSJyLt3ktQx-98">
           <mxGeometry x="270" y="309" width="120" height="80" as="geometry" />
