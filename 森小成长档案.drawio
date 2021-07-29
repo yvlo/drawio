@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-29T07:22:42.970Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55" etag="e6xdKManz5UPHUcKZeC-" version="14.9.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-29T07:50:29.211Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55" etag="b47l6uEPJX15RpRYY7ZP" version="14.9.2" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -199,6 +199,34 @@
         </mxCell>
         <mxCell id="kHKhQP7QaM05DCIvFR9r-47" value="学生成长档案系统" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="270" y="220" width="720" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="kHKhQP7QaM05DCIvFR9r-52" value="获奖加星规则" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="kHKhQP7QaM05DCIvFR9r-47">
+          <mxGeometry x="50" y="620" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kHKhQP7QaM05DCIvFR9r-48" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="960" y="260" as="sourcePoint" />
+            <mxPoint x="860" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kHKhQP7QaM05DCIvFR9r-49" value="调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kHKhQP7QaM05DCIvFR9r-48">
+          <mxGeometry x="-0.3471" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kHKhQP7QaM05DCIvFR9r-50" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="260" as="sourcePoint" />
+            <mxPoint x="780" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kHKhQP7QaM05DCIvFR9r-51" value="使用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kHKhQP7QaM05DCIvFR9r-50">
+          <mxGeometry x="-0.4706" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kHKhQP7QaM05DCIvFR9r-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kHKhQP7QaM05DCIvFR9r-52" target="kHKhQP7QaM05DCIvFR9r-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
